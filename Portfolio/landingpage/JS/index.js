@@ -1,6 +1,6 @@
-jQuery(function($){
-    $("input[type='tel']").mask("+7(999) 999-9999");
-});
+// jQuery(function($){
+//     $("input[type='tel']").mask("+7(999) 999-9999");
+// });
 
 const imgLinks = [
     '../Picture/Second2.png',
