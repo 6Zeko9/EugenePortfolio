@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../CSS/magazine.css">
+    <link rel="stylesheet" href="../CSS/mediaMagazine.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <title>FoxComputer</title>
+</head>
+<style>
+    @import url('http://fonts.cdnfonts.com/css/corbel');
+</style>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div><a href="index.html"><img class="img-fluid logo" src="../picture/logo.png"></a></div>
+                </div>
+                <div class="col-lg-2">
+                    <h3 class="menu"><a class="MenuBat" href="magazine.html">Товары</a></h3>
+                </div>
+                <div class="col-lg-2">
+                    <h3 class="menu"><a class="MenuBat" href="Contacts.html">Контакты</a></h3>
+                </div>
+                <div class="col-lg-2">
+                    <h3 class="menu"><a class="MenuBat" href="Onas.html">О нас</a></h3>
+                </div>
+                <div class="col-lg-4">
+                    <div><a href="Cart.html"><img class="cart" src="../picture/cart.png"></a></div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="magazin">
+            <h3 class="HedText">В наличии</h3>
+            <div class="loo">
+                <div class="container-fluid Filters">
+                    <div class="row Filters">
+                        <div class="col-lg-2">
+                            <div class="select-box">
+
+                                <label for="select-box1" class="label select-box1 listChange"><span class="label-desc">Цена</span> </label>
+                                <select id="select-box1" class="select">
+                                    <option class="Type<100k" data-filter="Men100k" value="Choice 1">Мньше 100к</option>
+                                    <option class="TypeOt100Do200" data-filter="Ot100Do200" value="Choice 2">От 100к до 200к</option>
+                                    <option class="Type>200" data-filter="Bol200k" value="Choice 3">Больше 200к</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="select-box">
+
+                                <label for="select-box2" class="label select-box1 listChange"><span class="label-desc">Процессор</span> </label>
+                                <select id="select-box2" class="select">
+                                    <option class="Corei7" data-filter="Corei7" value="Choice 1">Intel Core i7</option>
+                                    <option class="Ryzen9" data-filter="Ryzen9" value="Choice 2">AMD Ryzen 9</option>
+                                    <option class="Corei5" data-filter="Corei5" value="Choice 3">Intel Core i5</option>
+                                    <option class="Ryzen7" data-filter="Ryzen7" value="Choice 3">AMD Ryzen 7</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="select-box">
+
+                                <label for="select-box3" class="label select-box1 listChange"><span class="label-desc">RGB</span> </label>
+                                <select id="select-box3" class="select">
+                                    <option class="RGBYes" data-filter="RGBYes" value="Choice 1">Да</option>
+                                    <option class="RGBNo" data-filter="RGBNo" value="Choice 2">Нет</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="select-box">
+
+                                <label for="select-box4" class="label select-box1 listChange"><span class="label-desc">Тип</span> </label>
+                                <select id="select-box4" class="select">
+                                    <option class="Game" data-filter="Game" value="Choice 1">Игровой</option>
+                                    <option class="Render" data-filter="Render" value="Choice 2">Рендер</option>
+                                    <option class="Work" data-filter="Work" value="Choice 3">Офисный</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="select-box">
+                                <option data-filter="all"><h3 class="clear">Отчистить</h3></option>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="cardd Ot100Do200 Corei7 RGBYes Game">
+                    <a class="FoxPlayLink" href="FoxPlayA.html">
+                    <img class="CardImg" src="../picture/FoxPlay.png">
+                    <h3 class="TovarName">Fox Play A</h3>
+                    <h3 class="TovarPrice">186 550 ₽</h3>
+                    <p class="TovarStats">NVIDIA GeForce RTX 3070</p>
+                    <p class="TovarStats">Intel Core i7-11800H</p>
+                    <p class="TovarStats">16GB Kingston Fury</p>
+                    <p class="TovarStats">500GB HYPERPC PLUS </p>
+                    </a>
+                </div>
+                <div class="cardd Ot100Do200 Ryzen7 RGBYes Game">
+                    <a class="FoxPlayLink" href="FoxPlayB.html">
+                    <img class="CardImg" src="../picture/FoxPlay.png">
+                    <h3 class="TovarName">Fox Play B</h3>
+                    <h3 class="TovarPrice">194 500 ₽</h3>
+                    <p class="TovarStats">NVIDIA GeForce RTX 3070</p>
+                    <p class="TovarStats">AMD Ryzen 7 5800H</p>
+                    <p class="TovarStats">16GB Kingston Fury</p>
+                    <p class="TovarStats">1TB HYPERPC MAX</p>
+                    </a>
+                </div>
+                <div class="cardd Bol200k Ryzen9 RGBYes Game">
+                    <a class="FoxPlayLink" href="FoxPlayC.html">
+                    <img class="CardImg" src="../picture/FoxPlay.png">
+                    <h3 class="TovarName">Fox Play C</h3>
+                    <h3 class="TovarPrice">206 900 ₽</h3>
+                    <p class="TovarStats">NVIDIA GeForce RTX 3070</p>
+                    <p class="TovarStats">AMD Ryzen 9 5900HX</p>
+                    <p class="TovarStats">16GB Kingston Fury</p>
+                    <p class="TovarStats">2TB HYPERPC PLUS  </p>
+                    </a>
+                </div>
+                <div class="cardd Bol200k Corei5 RGBYes Render">
+                    <a class="FoxPlayLink" href="Fox Render A.html">
+                    <img class="CardImg" src="../picture/FoxRender.png">
+                    <h3 class="TovarName">Fox Render A</h3>
+                    <h3 class="TovarPrice">291 800 ₽</h3>
+                    <p class="TovarStats">GeForce RTX 3070  x2</p>
+                    <p class="TovarStats">i5-12600K(F)  x2</p>
+                    <p class="TovarStats">32GB Crucial DDR5-4800</p>
+                    <p class="TovarStats">2TB HYPERPC PLUS  </p>
+                    </a>
+                </div>
+                <div class="cardd Bol200k Corei7 RGBYes Render">
+                    <a class="FoxPlayLink" href="Fox Render B.html">
+                    <img class="CardImg" src="../picture/FoxRender.png">
+                    <h3 class="TovarName">Fox Render B </h3>
+                    <h3 class="TovarPrice">310 800 ₽</h3>
+                    <p class="TovarStats">GeForce RTX 3080 XC3 Ultra  x2 </p>
+                    <p class="TovarStats">i7-12700K(F) </p>
+                    <p class="TovarStats">64GB Kingston Renegade-3600</p>
+                    <p class="TovarStats">2TB Seagate BarraCuda  </p>
+                    </a>
+                </div>
+                <div class="cardd Bol200k Corei7 RGBYes Render">
+                    <a class="FoxPlayLink" href="Fox Render C.html">
+                    <img class="CardImg" src="../picture/FoxRender.png">
+                    <h3 class="TovarName">Fox Render C</h3>
+                    <h3 class="TovarPrice">353 700 ₽</h3>
+                    <p class="TovarStats">RTX 3080 Ti Founders</p>
+                    <p class="TovarStats">i7-12700K(F) </p>
+                    <p class="TovarStats">64GB Kingston Fury Beast</p>
+                    <p class="TovarStats">2TB Seagate BarraCuda </p>
+                    </a>
+                </div>
+                <div class="cardd Men100k Corei5 RGBNo Work">
+                    <a class="FoxPlayLink" href="Fox Work A.html">
+                    <img class="CardImg" src="../picture/FoxWork.png">
+                    <h3 class="TovarName">Fox Work A </h3>
+                    <h3 class="TovarPrice">50 000 ₽</h3>
+                    <p class="TovarStats">NVIDIA GeForce RTX 1070 </p>
+                    <p class="TovarStats">Intel Core i5-11800H</p>
+                    <p class="TovarStats">8GB Kingston Fury</p>
+                    <p class="TovarStats">500GB HYPERPC PLUS</p>
+                    </a>
+                </div>
+                <div class="cardd Men100k Corei5 RGBNo Work">
+                    <a class="FoxPlayLink" href="Fox Work B.html">
+                    <img class="CardImg" src="../picture/FoxWork.png">
+                    <h3 class="TovarName">Fox Work B</h3>
+                    <h3 class="TovarPrice">70 000 ₽</h3>
+                    <p class="TovarStats">NVIDIA GeForce RTX 2070 </p>
+                    <p class="TovarStats">Intel Core i5-11800H</p>
+                    <p class="TovarStats">8GB Kingston Fury</p>
+                    <p class="TovarStats">500GB HYPERPC PLUS</p>
+                    </a>
+                </div>
+                <div class="cardd Ot100Do200 Corei5 RGBNo Work">
+                    <a class="FoxPlayLink" href="Fox Work C.html">
+                    <img class="CardImg" src="../picture/FoxWork.png">
+                    <h3 class="TovarName">Fox Work C</h3>
+                    <h3 class="TovarPrice">100 000 ₽</h3>
+                    <p class="TovarStats">NVIDIA GeForce RTX 2070 </p>
+                    <p class="TovarStats">Intel Core i5-11800H</p>
+                    <p class="TovarStats">16GB Kingston Fury</p>
+                    <p class="TovarStats">500GB HYPERPC PLUS </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerblock">
+            <img class="footerimg" src="../picture/footer.png">
+            <h3 class="footerText">Игровые ПК FoxTech — ноутбуки и настольные компьютеры | Официальный сайт®</h3>
+            <div class="smolltext">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-3 cow width:0">
+                            <p class="smoll">НОУТБУКИ</p>
+                            <p class="smoll">НАСТОЛЬНЫЕ ПК</p>
+                            <p class="smoll">АКСЕССУАРЫ</p>
+                        </div>
+                        <div class="col-3 cow">
+                            <p class="smoll">Найти официального дилера</p>
+                            <p class="smoll">Загрузка драйверов</p>
+                            <p class="smoll">Поддержка</p>
+                        </div>
+                        <div class="col-3 cow">
+                            <p class="smoll">Контактная информация</p>
+                            <p class="smoll">Отзыв</p>
+                            <p class="smoll">Акции</p>
+                        </div>
+                        <div class="col-3 cow dos">
+                            <p class="last">О нас</p>
+                            <p class="last">Сайт FoxTech</p>
+                            <p class="last">Вакансии</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../JS/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="../JS/magazine.js"></script>
+</body>
+</html>

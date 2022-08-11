@@ -1,0 +1,86 @@
+@media screen and (max-device-width:766px) {
+    header {
+        height: 16vw;
+    }
+
+    body {
+        width: 100%;
+        height: 1400px;
+        background: url(../img/fone.jpg);
+    }
+
+    .but {
+        font-size: 4vw;
+        visibility: hidden;
+        display: none;
+    }
+
+    .logo {
+        margin-top: 3vw;
+        font-size: 8vw;
+        text-align: center;
+        height: 10vw;
+    }
+
+    .Haracter {
+        margin-left: 8vw;
+        font-size: 4vw;
+        /*font-weight: bold;*/
+        position: relative;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, #fffeff, #d7fffe);
+    }
+
+    .MyPhoto {
+        height: 45vw;
+        width: 35vw;
+        background-image: url("../img/MyPhoto.png");
+        background-size: 40vw 46vw;
+        background-repeat: no-repeat;
+        margin: 10vw 10vw 10vw 6vw;
+    }
+
+    .AboutMe {
+        margin-top: 5vw;
+        text-align: center;
+        font-size: 8vw;
+    }
+
+    .AboutMeText {
+        text-align: center;
+        font-size: 4vw;
+        margin: 10vw;
+    }
+
+    .border1 {
+        margin-top: 5vw;
+        margin-right: auto;
+        margin-left: auto;
+        height: 43vw;
+        width: 90%;
+        border: 0.5vw solid #fff5ee; /* Параметры границы */
+        opacity: 100%;
+        padding: 5px; /* Поля вокруг текста */
+        border-radius: 5vw;
+    }
+
+    .Contact {
+        margin-top: 15vw;
+    }
+
+    .cont {
+        text-align: center;
+    }
+
+    .link {
+        text-decoration: none;
+        color: var(--bs-body-color);
+    }
+
+    .link:hover {
+        text-decoration: none;
+        color: var(--bs-body-color);
+    }
+}

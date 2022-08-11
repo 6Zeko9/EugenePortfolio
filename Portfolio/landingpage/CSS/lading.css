@@ -1,0 +1,218 @@
+body {
+    background-image: url("../picture/fone.png");
+    background-size: cover;
+    height: 212vw;
+    width: 97.5vw;
+}
+
+
+.FirstImgDiv {
+    background-image: url(../Picture/First.png);
+    width: 20vw;
+    height: 40vw;
+    background-size: cover;
+    margin-left: 38%;
+    margin-top: 5vw;
+    position: absolute;
+}
+
+.FirstBlackBlock {
+    background-image: url(../Picture/BlackBlock.png);
+    width: 100%;
+    height: 50vw;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.FirstText {
+    z-index: 5;
+    color: #f3f7fb;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+}
+
+.FirstTextDiv {
+    margin-top: 13vw;
+    position: absolute;
+    width: 100%;
+}
+
+.SecondText {
+    margin-top: 1vw;
+    z-index: 5;
+    color: #f3f7fb;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+}
+
+.TreeText {
+    margin-top: 1vw;
+    z-index: 5;
+    color: #f3f7fb;
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+}
+
+
+#image {
+    max-width: 100%;
+    animation: fade 5s linear infinite;
+    animation-delay: 2.5s;
+  }
+
+@keyframes fade {
+    0% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 1 }
+}
+  
+.SecondImg {
+    position: absolute;
+    margin-top: 49vw;
+    margin-left: 10vw;
+    width: 60vw;
+}
+
+.SecondBlockText{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 57vw;
+    z-index: 5;
+    color: #113c73;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+}
+
+.SecondBlockText2 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 62vw;
+    z-index: 5;
+    color: #113c73;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+}
+
+.Button {
+    background-image: url(../Picture/Button.png);
+    margin-top: 70vw;
+    margin-left: 54%;
+    width: 22vw;
+    height: 5vw;
+    background-size: cover;
+    position: absolute;
+}
+
+.TreeBlock {
+    margin-top: 110vw;
+    background-image: url(../Picture/BlackBlock.png);
+    width: 100%;
+    height: 50vw;
+    background-size: cover;
+    position: absolute;
+}
+
+.TreeImgDiv {
+    background-image: url(../Picture/TreeImg.png);
+    width: 37vw;
+    height: 40vw;
+    background-size: cover;
+    margin-left: 54%;
+    margin-top: 115vw;
+    position: absolute;
+}
+
+.Opis {
+    margin-left: 10vw;
+    z-index: 5;
+    color: #f3f7fb;
+    font-size: 3vw;
+    text-align: left;
+    font-family: 'Bauhaus';
+}
+
+.Osoben {
+    z-index: 5;
+    margin-top: 123vw;
+    position: absolute;
+}
+
+.FirstOsobenText{
+    margin-left: 41%;
+    margin-top: 113vw;
+    z-index: 5;
+    color: #f3f7fb;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+    position: absolute;
+}
+
+.IvseEto {
+    margin-left: 40%;
+    margin-top: 170vw;
+    z-index: 5;
+    color: #113c73;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+    position: absolute;
+}
+
+.DvePedes {
+    text-decoration: line-through;
+    margin-left: 45%;
+    margin-top: 177vw;
+    z-index: 5;
+    color: #fa2e54;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+    position: absolute;
+}
+
+.DvePedes2 {
+    margin-left: 43%;
+    margin-top: 180vw;
+    z-index: 5;
+    color: #fa2e54;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Bauhaus';
+    position: absolute;
+}
+
+.Nomer {
+    position: absolute;
+    margin-top: 190vw;
+    margin-left: 39%;
+    width: 25vw;
+    height: 4vw;
+    border: none;
+    border-radius: 1.5vw;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Bauhaus';
+}
+
+.LastImg{
+    /* background-image: url(../Picture/Button.png); */
+    margin-top: 197vw;
+    margin-left: 41%;
+    width: 22vw;
+    height: 5vw;
+    background-size: cover;
+    position: absolute;
+    border-radius: 2vw;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2vw;
+    font-family: 'Bauhaus';
+    color: #f3f7fb;
+}

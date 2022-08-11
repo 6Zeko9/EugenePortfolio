@@ -1,0 +1,52 @@
+@media screen and (max-device-width:990px) {
+
+    .Play {
+        display: none;
+        visibility: hidden;
+    }
+
+    .player {
+        display: none;
+        visibility: hidden;
+    }
+
+    .top3 {
+        margin-top: 40vw;
+    }
+
+    .buttonM {
+        margin-top: 53vw;
+        width: 30vw;
+        height: 9.8vw;
+        background-image: url("../picture/Buton.png");
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-left: 44vw;
+    }
+    .blockM {
+        margin-left: auto;
+        position: relative;
+        margin-top: 32vw;
+        height: 10.5vw;
+        width: 85.7vw;
+    }
+
+    .block2 {
+        position: relative;
+        margin-top: 15vw;
+        height: 9.6vw;
+        width: 85.7vw;
+    }
+
+    body {
+        background-image: url("../picture/fone.jpg");
+        background-size: cover;
+        height: 300vw;
+        width: 98.5vw;
+    }
+
+}
+

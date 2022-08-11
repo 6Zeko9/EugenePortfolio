@@ -1,0 +1,92 @@
+@media screen and (max-device-width:990px) {
+
+    main {
+        height: 391.8vw;
+    }
+
+    .TovarName {
+        font-size: 5vw;
+    }
+
+    .TovarPrice {
+        font-size: 4vw;
+    }
+
+    .TovarStats {
+        font-size: 2vw;
+    }
+
+    .CardImg {
+        height: 34vw;
+    }
+
+    .HedText {
+        font-size: 5vw;
+    }
+
+    .clear {
+        font-size: 3vw;
+    }
+
+    span {
+        font-size: 3vw;
+    }
+
+    .select-box {
+        margin-top: 3vw;
+    }
+
+    .cart {
+        margin-left: 45vw;
+    }
+
+    .Play {
+        display: none;
+        visibility: hidden;
+    }
+
+    .player {
+        display: none;
+        visibility: hidden;
+    }
+
+    .top3 {
+        margin-top: 40vw;
+    }
+
+    .buttonM {
+        margin-top: 53vw;
+        width: 30vw;
+        height: 9.8vw;
+        background-image: url("../picture/Buton.png");
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-left: 44vw;
+    }
+    .blockM {
+        margin-left: auto;
+        position: relative;
+        margin-top: 32vw;
+        height: 10.5vw;
+        width: 85.7vw;
+    }
+
+    .block2 {
+        position: relative;
+        margin-top: 15vw;
+        height: 9.6vw;
+        width: 85.7vw;
+    }
+
+    body {
+        background-image: url("../picture/fone.jpg");
+        background-size: cover;
+        height: 485vw;
+        width: 98.5vw;
+    }
+
+}
+

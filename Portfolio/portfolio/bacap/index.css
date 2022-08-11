@@ -1,0 +1,180 @@
+
+body {
+    width: 100%;
+    height: 3600px;
+    background: url(../img/fone.jpg);
+}
+
+
+.logo {
+    font-size: 5vw;
+    text-align: center;
+    height: 7vw;
+}
+
+.language {
+    text-align: center;
+}
+
+h2, h3 {
+    position: relative;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #fffeff, #d7fffe);
+}
+
+.button {
+    margin-top: 1.2vw;
+    border: 0.35vw solid #fff5ee; /* Параметры границы */
+    padding: 8px; /* Поля вокруг текста */
+    border-radius: 5vw;
+    /*opacity: 80%;*/
+    transition: all 0.5s ease;
+    /*height: 5vw;*/
+    /*width: 20vw;*/
+
+}
+
+.button:hover {
+    margin-top: 1.2vw;
+    border: 0.35vw solid #fff5ee; /* Параметры границы */
+    padding: 8px; /* Поля вокруг текста */
+    border-radius: 5vw;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.but {
+    font-size: 2.5vw;
+}
+
+
+
+.MyPhoto {
+    height: 45vw;
+    width: 35vw;
+    background-image: url("../img/MyPhoto.png");
+    background-size: 34.5vw 40vw;
+    background-repeat: no-repeat;
+    margin: 10vw 10vw 10vw 6vw;
+}
+
+.Haracter {
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+    font-size: 4vw;
+    /*font-weight: bold;*/
+}
+
+.Underline {
+    text-decoration: underline;
+}
+
+.FirstHar {
+    margin-top: 13vw;
+}
+
+.BackFlow {
+    height: 58vw;
+    /*background: rgba(0,0,0, 0.1);*/
+}
+
+.butleft {
+    margin-left: 1vw;
+}
+
+.butright {
+    margin-right: 1vw;
+}
+
+/*u {*/
+/*    color: var(--bs-body-color);*/
+/*}*/
+
+.AboutMe {
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.AboutMeText {
+    text-align: center;
+    font-size: 2vw;
+    margin: 3vw;
+}
+
+.portfolio {
+    margin-top: 15vw;
+}
+
+.border1 {
+    margin-top: 5vw;
+    margin-right: auto;
+    margin-left: auto;
+    height: 44vw;
+    width: 90%;
+    border: 0.5vw solid #fff5ee; /* Параметры границы */
+    opacity: 100%;
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 5vw;
+}
+
+.border2 {
+    margin-top: 3vw;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30vw;
+    width: 80%;
+    border: 0.5vw solid #fff5ee; /* Параметры границы */
+    opacity: 100%;
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 4vw;
+    transition: all 0.5s ease;
+}
+
+.border2:hover {
+    margin-top: 3vw;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30vw;
+    width: 80%;
+    border: 0.5vw solid #fff5ee; /* Параметры границы */
+    opacity: 100%;
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 4vw;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.Site {
+    margin-top: 1.5vw;
+    text-align: center;
+    font-size: 4vw;
+    /*font-weight: bold;*/
+    position: relative;
+}
+
+.Contact {
+    margin-top: 15vw;
+}
+
+.cont {
+    text-align: center;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+    font-size: 4vw;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--bs-body-color);
+}
+
+.link:hover {
+    text-decoration: none;
+    color: var(--bs-body-color);
+}
+
